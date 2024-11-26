@@ -1,0 +1,143 @@
+/root/voice 2/chroma_api/app.py:133: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [37563]
+INFO:     Waiting for application startup.
+/root/voice 2/chroma_api/app.py:143: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36280 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [37563]
+/root/voice 2/chroma_api/app.py:133: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [38261]
+INFO:     Waiting for application startup.
+/root/voice 2/chroma_api/app.py:143: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38261]
+/root/voice 2/chroma_api/app.py:133: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [38818]
+INFO:     Waiting for application startup.
+/root/voice 2/chroma_api/app.py:143: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     95.214.53.211:48694 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:61156 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62530 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:19050 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35396 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34060 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63750 - "POST /similarity_search HTTP/1.1" 200 OK
+/root/voice 2/chroma_api/app.py:133: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2397]
+INFO:     Waiting for application startup.
+/root/voice 2/chroma_api/app.py:143: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     127.0.0.1:25298 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:25306 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:30784 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2397]
+/root/voice 2/chroma_api/app.py:133: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [3010]
+INFO:     Waiting for application startup.
+/root/voice 2/chroma_api/app.py:143: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     127.0.0.1:50848 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63226 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63230 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50764 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63314 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63318 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54170 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3010]
+/root/voice 2/chroma_api/app.py:133: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [3652]
+INFO:     Waiting for application startup.
+/root/voice 2/chroma_api/app.py:143: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     127.0.0.1:29720 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32410 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37836 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38788 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:26190 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41364 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32618 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:28500 - "POST /similarity_search HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+/root/voice 2/chroma_api/app.py:133: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Started server process [2469]
+INFO:     Waiting for application startup.
+/root/voice 2/chroma_api/app.py:143: LangChainDeprecationWarning: The class `HuggingFaceEmbeddings` was deprecated in LangChain 0.2.2 and will be removed in 1.0. An updated version of the class exists in the :class:`~langchain-huggingface package and should be used instead. To use it run `pip install -U :class:`~langchain-huggingface` and import as `from :class:`~langchain_huggingface import HuggingFaceEmbeddings``.
+  embedding_function = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     127.0.0.1:64456 - "POST /similarity_search HTTP/1.1" 200 OK
+INFO:     127.0.0.1:23392 - "POST /similarity_search HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     13.58.97.162:54464 - "GET / HTTP/1.1" 404 Not Found

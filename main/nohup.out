@@ -1,0 +1,426 @@
+INFO:     Will watch for changes in these directories: ['/root/voice 2/main']
+INFO:     Uvicorn running on http://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started reloader process [37566] using WatchFiles
+INFO:     Started server process [37571]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     44.213.72.79:50292 - "GET /response?query=YOUR_QUERY&session_id=YOUR_SESSION_ID HTTP/1.1" 404 Not Found
+LLM API Response: नमस्ते! कैसे मैं आपकी मदद कर सकता हूँ?
+INFO:     44.213.72.79:50702 - "GET /process?query=hello&session_id=test HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [37571]
+INFO:     Stopping reloader process [37566]
+INFO:     Will watch for changes in these directories: ['/root/voice 2/main']
+INFO:     Uvicorn running on https://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started reloader process [38264] using WatchFiles
+INFO:     Started server process [38271]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38271]
+INFO:     Stopping reloader process [38264]
+INFO:     Will watch for changes in these directories: ['/root/voice 2/main']
+INFO:     Uvicorn running on https://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started reloader process [38872] using WatchFiles
+INFO:     Started server process [38874]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     184.105.139.70:6432 - "GET / HTTP/1.1" 404 Not Found
+INFO:     184.105.139.70:13526 - "GET / HTTP/1.1" 404 Not Found
+INFO:     184.105.139.70:11150 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.193.72.187:57712 - "GET / HTTP/1.1" 404 Not Found
+INFO:     118.193.72.187:57718 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     118.193.72.187:57722 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     118.193.72.187:57732 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+LLM API Response: नमस्ते! कैसे मदद कर सकता हूँ?
+INFO:     152.58.20.50:65077 - "GET /process?session_id=301bdb63-426b-4346-badc-8167124252e5&query=hello HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 401, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/root/voice 2/main/app.py", line 46, in process_endpoint
+    tts_stream_generator = await process_query(query, session_id)
+  File "/root/voice 2/main/app.py", line 22, in process_query
+    llm_response = await client.get(llm_api_url, params={"query": query, "session_id": session_id})
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1814, in get
+    return await self.request(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+INFO:     152.58.20.50:65089 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+LLM API Response: नमस्ते! लगता है आप थोड़ा confuse हैं. मैं आपकी मदद के लिए यहाँ हूँ. क्या आप RTO से संबंधित कोई सवाल पूछना चाहते हैं?
+INFO:     152.58.20.50:65116 - "GET /process?session_id=301bdb63-426b-4346-badc-8167124252e5&query=hello+hello HTTP/1.1" 200 OK
+INFO:     216.218.206.69:29738 - "GET / HTTP/1.1" 404 Not Found
+INFO:     216.218.206.69:58840 - "GET / HTTP/1.1" 404 Not Found
+INFO:     216.218.206.69:58852 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  WatchFiles detected changes in 'app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38874]
+INFO:     Started server process [48885]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [48885]
+INFO:     Started server process [48910]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     152.58.22.220:56402 - "GET /process?session_id=3ffd9986-d0d7-4a5a-9b0a-7c2094fcea9d&query=hello HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 401, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/root/voice 2/main/app.py", line 46, in process_endpoint
+    tts_stream_generator = await process_query(query, session_id)
+  File "/root/voice 2/main/app.py", line 22, in process_query
+    llm_response = await client.get(llm_api_url, params={"query": query, "session_id": session_id})
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1814, in get
+    return await self.request(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+LLM API Response: नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?
+INFO:     152.58.22.220:56442 - "GET /process?session_id=3ffd9986-d0d7-4a5a-9b0a-7c2094fcea9d&query=hello HTTP/1.1" 200 OK
+LLM API Response: नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?
+INFO:     152.58.22.220:56448 - "GET /process?session_id=3ffd9986-d0d7-4a5a-9b0a-7c2094fcea9d&query=hello HTTP/1.1" 200 OK
+INFO:     Will watch for changes in these directories: ['/root/voice 2/main']
+INFO:     Uvicorn running on https://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started reloader process [2400] using WatchFiles
+INFO:     Started server process [2406]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+LLM API Response: Namaste! Kaise aapki madad kar sakta hoon?
+INFO:     152.58.22.220:25060 - "GET /process?session_id=4112ff31-3154-4210-a930-1cecf1ce9087&query=hello HTTP/1.1" 200 OK
+LLM API Response: Namaste! Kaise aapki madad kar sakta hoon?
+INFO:     152.58.22.220:56954 - "GET /process?session_id=4112ff31-3154-4210-a930-1cecf1ce9087&query=hello HTTP/1.1" 200 OK
+LLM API Response: नमस्ते! कैसे मैं आपकी सहायता कर सकता हूँ?
+INFO:     152.58.22.220:56971 - "GET /process?session_id=6ed128d6-6c51-4415-80f1-dfeda82898d6&query=hello HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2406]
+INFO:     Stopping reloader process [2400]
+INFO:     Will watch for changes in these directories: ['/root/voice 2/main']
+INFO:     Uvicorn running on https://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started reloader process [3013] using WatchFiles
+INFO:     Started server process [3018]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     152.58.22.220:57112 - "GET /process?session_id=44c4be4b-ce50-4615-a810-5dda00c3834d&query=hello HTTP/1.1" 500 Internal Server Error
+INFO:     152.58.22.220:57112 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.58.22.220:57497 - "GET /process?session_id=6c0c078d-3001-4043-85c0-5149169ccaef&query=hello HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 72, in map_httpcore_exceptions
+    yield
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 377, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 216, in handle_async_request
+    raise exc from None
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection_pool.py", line 196, in handle_async_request
+    response = await connection.handle_async_request(
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/connection.py", line 101, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 143, in handle_async_request
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 113, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 186, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_async/http11.py", line 224, in _receive_event
+    data = await self._network_stream.read(
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_backends/anyio.py", line 32, in read
+    with map_exceptions(exc_map):
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/root/venv/lib/python3.10/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 401, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 93, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/cors.py", line 144, in simple_response
+    await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/root/voice 2/main/app.py", line 54, in process_endpoint
+    tts_stream_generator = await process_query(query, session_id)
+  File "/root/voice 2/main/app.py", line 30, in process_query
+    llm_response = await client.get(llm_api_url, params={"query": query, "session_id": session_id})
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1814, in get
+    return await self.request(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1585, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1674, in send
+    response = await self._send_handling_auth(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1702, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1739, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_client.py", line 1776, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 376, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/root/venv/lib/python3.10/site-packages/httpx/_transports/default.py", line 89, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+LLM API Response: Namaste! Koi baat nahi, aapke liye main yahan hoon. RTO se related koi sawaal hai toh zaroor pucho. Main aapki madad karne ke liye taiyaar hoon!
+INFO:     152.58.22.220:57517 - "GET /process?session_id=6c0c078d-3001-4043-85c0-5149169ccaef&query=hello HTTP/1.1" 200 OK
+LLM API Response: Namaste! Koi baat nahi, aapke liye main yahan hoon. RTO se related koi sawaal hai toh zaroor pucho. Main aapki madad karne ke liye taiyaar hoon!
+INFO:     152.58.22.220:57518 - "GET /process?session_id=6c0c078d-3001-4043-85c0-5149169ccaef&query=hello HTTP/1.1" 200 OK
+LLM API Response: Namaste! How can I assist you? RTO ke services, processes, aur policies ke baare mein kuch puchhna chahte hain?
+INFO:     152.58.22.220:57558 - "GET /process?session_id=d4a5d580-83c5-4d8b-8035-18fbfaf09b04&query=hello HTTP/1.1" 200 OK
+LLM API Response: Namaste! Aap phir se hello bola. Koi specific sawaal hai RTO ke baare mein?
+INFO:     152.58.22.220:57568 - "GET /process?session_id=d4a5d580-83c5-4d8b-8035-18fbfaf09b04&query=hello HTTP/1.1" 200 OK
+LLM API Response: Namaste! Aap phir se hello bola. Koi specific sawaal hai RTO ke baare mein?
+INFO:     152.58.22.220:57572 - "GET /process?session_id=d4a5d580-83c5-4d8b-8035-18fbfaf09b04&query=hello HTTP/1.1" 200 OK
+LLM API Response: नमस्ते! मैं RTO एजेंट हूँ। आपके लिए कैसे सहायता कर सकता हूँ?
+INFO:     152.58.22.220:57583 - "GET /process?session_id=d50708d3-c051-49f5-a97f-b8ea815eb5c7&query=hello HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for connections to close. (CTRL+C to force quit)
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3018]
+INFO:     Stopping reloader process [3013]
+INFO:     Will watch for changes in these directories: ['/root/voice 2/main']
+INFO:     Uvicorn running on https://0.0.0.0:8888 (Press CTRL+C to quit)
+INFO:     Started reloader process [3655] using WatchFiles
+INFO:     Started server process [3662]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+LLM API Response: नमस्ते! मैं रТО एजेंट हूँ। क्या मैं आपकी मदद कर सकता हूँ?
+INFO:     152.58.22.220:9700 - "GET /process?session_id=0e606708-b29d-4f53-8254-66a7cf100403&query=hello HTTP/1.1" 200 OK
+LLM API Response: गाड़ी ट्रांसफर करने के लिए आपको कुछ दस्तावेजों की जरूरत पड़ेगी। आपके पास गाड़ी के मालिकाना हक का पत्र (Ownership Transfer), रोड टैक्स क्लیرेंस सर्टिफिकेट, एंडोर्समेंट की आवश्यकता होगी। इसके अलावा Sellers और Buyers दोनों के हस्ताक्षर वाले Form 29 और 30 की भी जरूरत पड़ेगी। क्या आप इन दस्तावेजों के बारे में जानते हैं?
+INFO:     152.58.22.220:37511 - "GET /process?session_id=0e606708-b29d-4f53-8254-66a7cf100403&query=han+mujhe+ek+gadi+transfer+karna+hai HTTP/1.1" 200 OK
+INFO:     152.58.22.220:57725 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.58.22.220:57725 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+LLM API Response: गाड़ी ट्रांसफर करने के लिए जरूरी दस्तावेजों के बारे में मैं आपको विस्तार से बताता हूँ।
+
+Ownership Transfer (Form 30) - यह एमवीआई (Motor Vehicle Inspector) द्वारा जारी किया जाता है, जिसमें गाड़ी के मालिकाना हक का पता चलता है।
+
+Road Tax Clearance Certificate - यह प्रमाणित करता है कि गाड़ी के मालिक द्वारा रोड टैक्स का भुगतान किया गया है।
+
+Form 29 - यह फॉर्म खरीदार द्वारा भरा जाता है, जिसमें गाड़ी के खरीदार का विवरण और गाड़ी के बारे में जानकारी होती है।
+
+Form 30 - यह फॉर्म विक्रेता द्वारा भरा जाता है, जिसमें गाड़ी के मालिकाना हक का पता चलता है और विक्रेता के हस्ताक्षर होते हैं।
+
+इन सभी दस्तावेजों को भरना और जमा करना आवश्यक है, ताकि गाड़ी ट्रांसफर की प्रक्रिया पूरी हो सके। क्या अब आपको इन दस्तावेजों के बारे में समझ में आया?
+
+Is there anything else I can help with?
+INFO:     152.58.22.220:55766 - "GET /process?session_id=0e606708-b29d-4f53-8254-66a7cf100403&query=nahin+mujhe+detail+do HTTP/1.1" 200 OK
+INFO:     152.58.22.220:57865 - "GET / HTTP/1.1" 404 Not Found
+INFO:     152.58.22.220:57865 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     152.58.22.220:57875 - "GET / HTTP/1.1" 404 Not Found
+LLM API Response: Namaste! Kya aap RTO se related kisi bhi query ke liye yahan aaye hain? Main aapki madad karne ke liye tayyar hoon.
+INFO:     152.58.22.220:57885 - "GET /process?session_id=712f8b18-6368-45f2-a323-45b631852bb5&query=hello HTTP/1.1" 200 OK
+LLM API Response: नमस्ते! कैसे मैं आपकी सहायता कर सकता हूँ?
+INFO:     152.58.22.220:57932 - "GET /process?session_id=a335a6ca-c720-4b17-9d72-a44fba708837&query=hello HTTP/1.1" 200 OK
+LLM API Response: गाड़ी ट्रांसफर करने के लिए आपको RTO में आवेदन करना होगा। इसके लिए आपको फॉर्म 29 और 30 की जरूरत पड़ेगी। इन फॉर्मों में आपको सभी ज़रूरी जानकारी देनी होगी जैसे कि गाड़ी का नंबर, मालिक का नाम, पता आदि। साथ ही आपको NOC (No Objection Certificate) भी चाहिए होगा। क्या आपके पास सभी आवश्यक दस्तावेज़ हैं?
+INFO:     152.58.22.220:57933 - "GET /process?session_id=a335a6ca-c720-4b17-9d72-a44fba708837&query=Mujhe+gadi+transfer+karna+hai HTTP/1.1" 200 OK
+LLM API Response: Namaste! Kaise madad kar sakta hoon?
+INFO:     152.58.22.220:57964 - "GET /process?session_id=5f3cc93b-9a2e-43e5-b4c7-550fefb0791d&query=hello HTTP/1.1" 200 OK
+LLM API Response: GAadi transfer karne ke liye aapko RTO office mein jana hoga. Aapke paas kuch documents ki zaroorat hogi, jaise ki RC book, valid insurance, Pollution certificate, aur No Objection Certificate (NOC) from the seller. Aapke liye yeh process kuch complicated ho sakta hai, lekin hum aapki madad kar sakte hain. Kya aapne yeh sab documents taiyaar kar liye hain?
+INFO:     152.58.22.220:57965 - "GET /process?session_id=5f3cc93b-9a2e-43e5-b4c7-550fefb0791d&query=Mujhe+gadi+transfer+karna+hai HTTP/1.1" 200 OK
+INFO:     147.185.132.24:60682 - "GET / HTTP/1.1" 404 Not Found

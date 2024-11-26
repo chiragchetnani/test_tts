@@ -1,0 +1,822 @@
+/root/voice 2/llm/app.py:116: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['/root/voice 2/llm']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [37564] using WatchFiles
+INFO:     Started server process [37575]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! कैसे मैं आपकी मदद कर सकता हूँ?
+INFO:     127.0.0.1:26134 - "GET /query?query=hello&session_id=test HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [37575]
+INFO:     Stopping reloader process [37564]
+/root/voice 2/llm/app.py:116: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['/root/voice 2/llm']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [38262] using WatchFiles
+INFO:     Started server process [38273]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [38273]
+INFO:     Stopping reloader process [38262]
+/root/voice 2/llm/app.py:116: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['/root/voice 2/llm']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [38819] using WatchFiles
+INFO:     Started server process [38827]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  Invalid HTTP request received.
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! कैसे मदद कर सकता हूँ?
+INFO:     127.0.0.1:38132 - "GET /query?query=hello&session_id=301bdb63-426b-4346-badc-8167124252e5 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! कैसे मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! कैसे मदद कर सकता हूँ?
+INFO:     127.0.0.1:40220 - "GET /query?query=hello&session_id=301bdb63-426b-4346-badc-8167124252e5 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! कैसे मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! कैसे मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'hello hello'}]>/
+    Query: /<hello hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! लगता है आप थोड़ा confuse हैं. मैं आपकी मदद के लिए यहाँ हूँ. क्या आप RTO से संबंधित कोई सवाल पूछना चाहते हैं?
+INFO:     127.0.0.1:38618 - "GET /query?query=hello%20hello&session_id=301bdb63-426b-4346-badc-8167124252e5 HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.200:54152 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.200:34464 - "GET / HTTP/1.1" 200 OK
+INFO:     162.142.125.200:44018 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?
+INFO:     127.0.0.1:48406 - "GET /query?query=hello&session_id=3ffd9986-d0d7-4a5a-9b0a-7c2094fcea9d HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?
+INFO:     127.0.0.1:18396 - "GET /query?query=hello&session_id=3ffd9986-d0d7-4a5a-9b0a-7c2094fcea9d HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! मैं RTO एजेंट हूँ। आपको RTO से संबंधित किसी भी तरह की जानकारी चाहिए, मैं助 करूँगा। क्या मैं आपकी मदद कर सकता हूँ?
+INFO:     127.0.0.1:58812 - "GET /query?query=hello&session_id=3ffd9986-d0d7-4a5a-9b0a-7c2094fcea9d HTTP/1.1" 200 OK
+/root/voice 2/llm/app.py:116: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['/root/voice 2/llm']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [2398] using WatchFiles
+INFO:     Started server process [2411]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Kaise aapki madad kar sakta hoon?
+INFO:     127.0.0.1:62686 - "GET /query?query=hello&session_id=4112ff31-3154-4210-a930-1cecf1ce9087 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Namaste! Kaise aapki madad kar sakta hoon?'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Kaise aapki madad kar sakta hoon?
+INFO:     127.0.0.1:62702 - "GET /query?query=hello&session_id=4112ff31-3154-4210-a930-1cecf1ce9087 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! कैसे मैं आपकी सहायता कर सकता हूँ?
+INFO:     127.0.0.1:30944 - "GET /query?query=hello&session_id=6ed128d6-6c51-4415-80f1-dfeda82898d6 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [2411]
+INFO:     Stopping reloader process [2398]
+/root/voice 2/llm/app.py:116: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['/root/voice 2/llm']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [3011] using WatchFiles
+INFO:     Started server process [3022]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:31692 - "GET /query?query=hello&session_id=44c4be4b-ce50-4615-a810-5dda00c3834d HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+  File "/root/venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/root/venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/root/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+    conn.request(
+  File "/root/venv/lib/python3.10/site-packages/urllib3/connection.py", line 441, in request
+    self.endheaders()
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/root/venv/lib/python3.10/site-packages/urllib3/connection.py", line 279, in connect
+    self.sock = self._new_conn()
+  File "/root/venv/lib/python3.10/site-packages/urllib3/connection.py", line 214, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f4393739420>: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/root/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/root/venv/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8003): Max retries exceeded with url: /similarity_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4393739420>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/protocols/http/httptools_impl.py", line 401, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+  File "/root/venv/lib/python3.10/site-packages/uvicorn/middleware/proxy_headers.py", line 60, in __call__
+    return await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/applications.py", line 1054, in __call__
+    await super().__call__(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/applications.py", line 113, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 187, in __call__
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/errors.py", line 165, in __call__
+    await self.app(scope, receive, _send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 715, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 735, in app
+    await route.handle(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 288, in handle
+    await self.app(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 76, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "/root/venv/lib/python3.10/site-packages/starlette/_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "/root/venv/lib/python3.10/site-packages/starlette/routing.py", line 73, in app
+    response = await f(request)
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 301, in app
+    raw_response = await run_endpoint_function(
+  File "/root/venv/lib/python3.10/site-packages/fastapi/routing.py", line 212, in run_endpoint_function
+    return await dependant.call(**values)
+  File "/root/voice 2/llm/app.py", line 54, in query
+    context = get_context(query)
+  File "/root/voice 2/llm/app.py", line 37, in get_context
+    response = requests.post(url, headers=headers, json=data)
+  File "/root/venv/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/root/venv/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/root/venv/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/venv/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/venv/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8003): Max retries exceeded with url: /similarity_search (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f4393739420>: Failed to establish a new connection: [Errno 111] Connection refused'))
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Hi there! Kaise madad kar sakta hoon? RTO se related koi sawaal hai?
+INFO:     127.0.0.1:49170 - "GET /query?query=hello&session_id=6c0c078d-3001-4043-85c0-5149169ccaef HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Hi there! Kaise madad kar sakta hoon? RTO se related koi sawaal hai?'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Koi baat nahi, aapke liye main yahan hoon. RTO se related koi sawaal hai toh zaroor pucho. Main aapki madad karne ke liye taiyaar hoon!
+INFO:     127.0.0.1:38052 - "GET /query?query=hello&session_id=6c0c078d-3001-4043-85c0-5149169ccaef HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Hi there! Kaise madad kar sakta hoon? RTO se related koi sawaal hai?'}, {'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Namaste! Koi baat nahi, aapke liye main yahan hoon. RTO se related koi sawaal hai toh zaroor pucho. Main aapki madad karne ke liye taiyaar hoon!'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Koi baat nahi, aapke liye main yahan hoon. RTO se related koi sawaal hai toh zaroor pucho. Main aapki madad karne ke liye taiyaar hoon!
+INFO:     127.0.0.1:38062 - "GET /query?query=hello&session_id=6c0c078d-3001-4043-85c0-5149169ccaef HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! How can I assist you? RTO ke services, processes, aur policies ke baare mein kuch puchhna chahte hain?
+INFO:     127.0.0.1:53016 - "GET /query?query=hello&session_id=d4a5d580-83c5-4d8b-8035-18fbfaf09b04 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Namaste! How can I assist you? RTO ke services, processes, aur policies ke baare mein kuch puchhna chahte hain?'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Aap phir se hello bola. Koi specific sawaal hai RTO ke baare mein?
+INFO:     127.0.0.1:40920 - "GET /query?query=hello&session_id=d4a5d580-83c5-4d8b-8035-18fbfaf09b04 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Namaste! How can I assist you? RTO ke services, processes, aur policies ke baare mein kuch puchhna chahte hain?'}, {'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Namaste! Aap phir se hello bola. Koi specific sawaal hai RTO ke baare mein?'}, {'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Aap phir se hello bola. Koi specific sawaal hai RTO ke baare mein?
+INFO:     127.0.0.1:40934 - "GET /query?query=hello&session_id=d4a5d580-83c5-4d8b-8035-18fbfaf09b04 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! मैं RTO एजेंट हूँ। आपके लिए कैसे सहायता कर सकता हूँ?
+INFO:     127.0.0.1:25126 - "GET /query?query=hello&session_id=d50708d3-c051-49f5-a97f-b8ea815eb5c7 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [3022]
+INFO:     Stopping reloader process [3011]
+/root/voice 2/llm/app.py:116: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['/root/voice 2/llm']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [3653] using WatchFiles
+INFO:     Started server process [3665]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! मैं रТО एजेंट हूँ। क्या मैं आपकी मदद कर सकता हूँ?
+INFO:     127.0.0.1:54448 - "GET /query?query=hello&session_id=0e606708-b29d-4f53-8254-66a7cf100403 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : han mujhe ek gadi transfer karna hai
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! मैं रТО एजेंट हूँ। क्या मैं आपकी मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'han mujhe ek gadi transfer karna hai'}]>/
+    Query: /<han mujhe ek gadi transfer karna hai>/
+    
+|LOG : SENDING RESPONSE : गाड़ी ट्रांसफर करने के लिए आपको कुछ दस्तावेजों की जरूरत पड़ेगी। आपके पास गाड़ी के मालिकाना हक का पत्र (Ownership Transfer), रोड टैक्स क्लیرेंस सर्टिफिकेट, एंडोर्समेंट की आवश्यकता होगी। इसके अलावा Sellers और Buyers दोनों के हस्ताक्षर वाले Form 29 और 30 की भी जरूरत पड़ेगी। क्या आप इन दस्तावेजों के बारे में जानते हैं?
+INFO:     127.0.0.1:37920 - "GET /query?query=han%20mujhe%20ek%20gadi%20transfer%20karna%20hai&session_id=0e606708-b29d-4f53-8254-66a7cf100403 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : nahin mujhe detail do
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! मैं रТО एजेंट हूँ। क्या मैं आपकी मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'han mujhe ek gadi transfer karna hai'}, {'role': 'assistant', 'content': 'गाड़ी ट्रांसफर करने के लिए आपको कुछ दस्तावेजों की जरूरत पड़ेगी। आपके पास गाड़ी के मालिकाना हक का पत्र (Ownership Transfer), रोड टैक्स क्लیرेंस सर्टिफिकेट, एंडोर्समेंट की आवश्यकता होगी। इसके अलावा Sellers और Buyers दोनों के हस्ताक्षर वाले Form 29 और 30 की भी जरूरत पड़ेगी। क्या आप इन दस्तावेजों के बारे में जानते हैं?'}, {'role': 'user', 'content': 'nahin mujhe detail do'}]>/
+    Query: /<nahin mujhe detail do>/
+    
+|LOG : SENDING RESPONSE : गाड़ी ट्रांसफर करने के लिए जरूरी दस्तावेजों के बारे में मैं आपको विस्तार से बताता हूँ।
+
+Ownership Transfer (Form 30) - यह एमवीआई (Motor Vehicle Inspector) द्वारा जारी किया जाता है, जिसमें गाड़ी के मालिकाना हक का पता चलता है।
+
+Road Tax Clearance Certificate - यह प्रमाणित करता है कि गाड़ी के मालिक द्वारा रोड टैक्स का भुगतान किया गया है।
+
+Form 29 - यह फॉर्म खरीदार द्वारा भरा जाता है, जिसमें गाड़ी के खरीदार का विवरण और गाड़ी के बारे में जानकारी होती है।
+
+Form 30 - यह फॉर्म विक्रेता द्वारा भरा जाता है, जिसमें गाड़ी के मालिकाना हक का पता चलता है और विक्रेता के हस्ताक्षर होते हैं।
+
+इन सभी दस्तावेजों को भरना और जमा करना आवश्यक है, ताकि गाड़ी ट्रांसफर की प्रक्रिया पूरी हो सके। क्या अब आपको इन दस्तावेजों के बारे में समझ में आया?
+
+Is there anything else I can help with?
+INFO:     127.0.0.1:39928 - "GET /query?query=nahin%20mujhe%20detail%20do&session_id=0e606708-b29d-4f53-8254-66a7cf100403 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Kya aap RTO se related kisi bhi query ke liye yahan aaye hain? Main aapki madad karne ke liye tayyar hoon.
+INFO:     127.0.0.1:48262 - "GET /query?query=hello&session_id=712f8b18-6368-45f2-a323-45b631852bb5 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! कैसे मैं आपकी सहायता कर सकता हूँ?
+INFO:     127.0.0.1:61682 - "GET /query?query=hello&session_id=a335a6ca-c720-4b17-9d72-a44fba708837 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : Mujhe gadi transfer karna hai
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! कैसे मैं आपकी सहायता कर सकता हूँ?'}, {'role': 'user', 'content': 'Mujhe gadi transfer karna hai'}]>/
+    Query: /<Mujhe gadi transfer karna hai>/
+    
+|LOG : SENDING RESPONSE : गाड़ी ट्रांसफर करने के लिए आपको RTO में आवेदन करना होगा। इसके लिए आपको फॉर्म 29 और 30 की जरूरत पड़ेगी। इन फॉर्मों में आपको सभी ज़रूरी जानकारी देनी होगी जैसे कि गाड़ी का नंबर, मालिक का नाम, पता आदि। साथ ही आपको NOC (No Objection Certificate) भी चाहिए होगा। क्या आपके पास सभी आवश्यक दस्तावेज़ हैं?
+INFO:     127.0.0.1:23696 - "GET /query?query=Mujhe%20gadi%20transfer%20karna%20hai&session_id=a335a6ca-c720-4b17-9d72-a44fba708837 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : Namaste! Kaise madad kar sakta hoon?
+INFO:     127.0.0.1:22828 - "GET /query?query=hello&session_id=5f3cc93b-9a2e-43e5-b4c7-550fefb0791d HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : Mujhe gadi transfer karna hai
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'Namaste! Kaise madad kar sakta hoon?'}, {'role': 'user', 'content': 'Mujhe gadi transfer karna hai'}]>/
+    Query: /<Mujhe gadi transfer karna hai>/
+    
+|LOG : SENDING RESPONSE : GAadi transfer karne ke liye aapko RTO office mein jana hoga. Aapke paas kuch documents ki zaroorat hogi, jaise ki RC book, valid insurance, Pollution certificate, aur No Objection Certificate (NOC) from the seller. Aapke liye yeh process kuch complicated ho sakta hai, lekin hum aapki madad kar sakte hain. Kya aapne yeh sab documents taiyaar kar liye hain?
+INFO:     127.0.0.1:47962 - "GET /query?query=Mujhe%20gadi%20transfer%20karna%20hai&session_id=5f3cc93b-9a2e-43e5-b4c7-550fefb0791d HTTP/1.1" 200 OK
+/root/voice 2/llm/app.py:116: DeprecationWarning: 
+        on_event is deprecated, use lifespan event handlers instead.
+
+        Read more about it in the
+        [FastAPI docs for Lifespan Events](https://fastapi.tiangolo.com/advanced/events/).
+        
+  @app.on_event("startup")
+INFO:     Will watch for changes in these directories: ['/root/voice 2/llm']
+INFO:     Uvicorn running on http://0.0.0.0:8002 (Press CTRL+C to quit)
+INFO:     Started reloader process [2470] using WatchFiles
+INFO:     Started server process [2479]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+|LOG : RECEIVED QUERY : hello
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}]>/
+    Query: /<hello>/
+    
+|LOG : SENDING RESPONSE : नमस्ते! कैसे मैं आपकी मदद कर सकता हूँ?
+INFO:     127.0.0.1:42726 - "GET /query?query=hello&session_id=027b4f76-ab2c-4d7a-a3ac-28f274c9ac87 HTTP/1.1" 200 OK
+|LOG : RECEIVED QUERY : Mujhe gadi transfer karna hai
+----|LOG : SENDING PROMPT : Aap ek RTO Agent hain jo Hindi, aur Hinglish mein respond karte hain, latest message ki language ke hisaab se. Aapka kaam hai RTO website par visitors ko RTO ke services, processes, aur policies ke baare mein information dena. Aapko Indian road transport rules, vehicle registration, aur licensing ke processes ki knowledge hai. Clear aur simple language mein user ko guide kijiye.
+
+Language Preference: Hindi
+
+Latest message ki language mein hi jawab dijiye – Hindi, ya Hinglish.
+Instructions:
+
+Start: “Hi there! How can I assist you?” ya kuch similar.
+End: “Is there anything else I can help with?”
+Answers ko brief aur relevant rakhiye. Sirf RTO-se related sawalon ka hi jawab dijiye.
+Form Handling: Agar user form bharna chahe, toh in details ke liye poochiye: Full Name, Phone Number, Email, aur ek short message. Phir respond kijiye: “Noted! We’ll be in touch with the details.”
+
+Sirf RTO ke context tak hi jawab dijiye.
+    
+    You have to answer the question based on the chat history and context
+    
+    Chat History: /<[{'role': 'user', 'content': 'hello'}, {'role': 'assistant', 'content': 'नमस्ते! कैसे मैं आपकी मदद कर सकता हूँ?'}, {'role': 'user', 'content': 'Mujhe gadi transfer karna hai'}]>/
+    Query: /<Mujhe gadi transfer karna hai>/
+    
+|LOG : SENDING RESPONSE : गाड़ी ट्रांसफर के लिए आपको कुछ डॉक्यूमेंट्स चाहिए होंगे। आपके पास मौजूदा RC, NOC, और खरीदार की ID प्रूफ होना चाहिए। इसके अलावा आपको Form 29 और 30 भरने होंगे। अगर आप पूरी प्रोसेस को समझना चाहते हैं, तो मैं आपको स्टेप बाय स्टेप गाइड कर सकता हूँ। Is there anything else I can help with?
+INFO:     127.0.0.1:35242 - "GET /query?query=Mujhe%20gadi%20transfer%20karna%20hai&session_id=027b4f76-ab2c-4d7a-a3ac-28f274c9ac87 HTTP/1.1" 200 OK
+INFO:     135.148.57.184:33709 - "GET / HTTP/1.1" 200 OK
+INFO:     135.148.25.125:43731 - "GET /favicon.ico HTTP/1.1" 404 Not Found
